@@ -1,8 +1,15 @@
-Follow instructions to setup and run the test with docker:
+### Follow instructions to setup and run the test with docker:
 
 https://github.com/lhvu2/deepvariant/blob/r1.6.1/docs/deepvariant-quick-start.md
 
-Dry-run:
+
+### Setting env variables:
+export BIN_VERSION="1.6.1"
+export OUTPUT_DIR=/home/lhvu/bio/deepvariant/tests/quickstart-output
+export INPUT_DI=/home/lhvu/bio/deepvariant/tests/quickstart-testdata
+
+
+### Dry-run:
 ```
 sudo docker run \
   -v "${INPUT_DIR}":"/home/lhvu/bio/deepvariant/tests/quickstart-testdata" \
@@ -20,7 +27,9 @@ sudo docker run \
   --dry_run=true
 ```
 
-Real run, removing dry_run=true from command line:
+### Real run: 
+- Removing dry_run=true from command line:
+
 ```
 sudo docker run \
   -v "${INPUT_DIR}":"/home/lhvu/bio/deepvariant/tests/quickstart-testdata" \
