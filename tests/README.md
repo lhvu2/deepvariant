@@ -4,9 +4,9 @@ https://github.com/lhvu2/deepvariant/blob/r1.6.1/docs/deepvariant-quick-start.md
 
 
 ### Setting env variables:
-export BIN_VERSION="1.6.1"
-export OUTPUT_DIR=/home/lhvu/bio/deepvariant/tests/quickstart-output
-export INPUT_DI=/home/lhvu/bio/deepvariant/tests/quickstart-testdata
+- export BIN_VERSION="1.6.1"
+- export OUTPUT_DIR=/home/lhvu/bio/deepvariant/tests/quickstart-output
+- export INPUT_DI=/home/lhvu/bio/deepvariant/tests/quickstart-testdata
 
 
 ### Dry-run:
